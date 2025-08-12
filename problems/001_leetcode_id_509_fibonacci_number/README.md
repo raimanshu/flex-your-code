@@ -27,9 +27,11 @@ Given n, calculate F(n).
 
 | Approach         | Description                       | Time Complexity | Space Complexity |
 | ---------------- | --------------------------------- | --------------- | ---------------- |
-| 1️⃣ Approach 1 | Brute Force / Naive / Intro-level | `O(...)`      | `O(...)`       |
-| 2️⃣ Approach 2 | Optimal / Efficient / Hashing     | `O(...)`      | `O(...)`       |
-| ...              | ...                               | ...             | ...              |
+| 1️⃣ Approach 1 | Using Precomputed Fibonacci Numbers | `O(1)`      | `O(1)`       |
+| 2️⃣ Approach 2 | Recursive Approach     | `O(2ⁿ)`      | `O(n)`       |
+| 1️⃣ Approach 3 | Dynamic Programming Approach | `O(n)`      | `O(n)`       |
+| 2️⃣ Approach 4 | Dynamic Programming with Memoization     | `O(n)`      | `O(n)`       |
+| 1️⃣ Approach 5 | Binet's Formula (Closed-form expression) | `O(log n)`      | `O(1)`       |
 
 ---
 
@@ -37,9 +39,12 @@ Given n, calculate F(n).
 
 | Approach | File                               |
 | -------- | ---------------------------------- |
-| 1️⃣    | [approach_1.py](python/approach_1.py) |
-| 2️⃣    | [approach_2.py](python/approach_2.py) |
-| ...      | ...                                |
+| 1    | [approach_1.py](python/approach_1.py) |
+| 2    | [approach_2.py](python/approach_2.py) |
+| 3    | [approach_3.py](python/approach_3.py) |
+| 4    | - |
+| 5    | [approach_5.py](python/approach_5.py) |
+
 
 ---
 
@@ -47,16 +52,17 @@ Given n, calculate F(n).
 
 | Approach | File                                   |
 | -------- | -------------------------------------- |
-| 1️⃣    | [approach_1.js](javascript/approach_1.js) |
-| 2️⃣    | [approach_2.js](javascript/approach_2.js) |
-| ...      | ...                                    |
+| 1    | [approach_1.js](javascript/approach_1.js) |
+| 2    | [approach_2.js](javascript/approach_2.js) |
+| 3    | [approach_3.js](javascript/approach_3.js) |
+| 4    | [approach_4.js](javascript/approach_4.js) |
+| 5    | [approach_5.js](javascript/approach_5.js) |
 
 ---
 
 ## 📝 Notes
 
-- Mention key insights, pitfalls, or comparison between languages.
-- For example: Python's dict is same as JS object but handles collisions differently.
+- Approach 2 is the most practical solution for this problem. 
 
 ---
 
